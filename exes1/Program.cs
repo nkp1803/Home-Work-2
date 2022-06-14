@@ -4,7 +4,7 @@ System.Console.Write("Введите трёхзначное число : ");
 string paramString = Console.ReadLine();
 int paramInt = int.Parse(paramString);
 
-if (paramInt >1000 || paramInt<99)
+if (paramInt >999 || paramInt<100)
 {
     System.Console.WriteLine("Введене не верное число");
 }
